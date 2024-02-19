@@ -12,7 +12,7 @@ const main = async () => {
     }
   };
 
-  let response: AxiosResponse<ChallengeResponse, any>;
+  let response: AxiosResponse<ChallengeResponse>;
 
   do {
     response = await axios.request<ChallengeResponse>(config);
